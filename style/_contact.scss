@@ -6,8 +6,9 @@
     position: absolute;
     z-index: -1;
     width: 100%;
-    min-height: 100vh;
+    height: 95vh;
     object-fit: cover;
+    object-position: top;
     top: 0;
   }
   form {

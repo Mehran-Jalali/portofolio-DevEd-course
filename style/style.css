@@ -240,9 +240,11 @@ nav ul {
   position: absolute;
   z-index: -1;
   width: 100%;
-  min-height: 100vh;
+  height: 95vh;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
   top: 0;
 }
 .form-section form {
@@ -399,5 +401,8 @@ footer h4 {
   .form-section img {
     opacity: 0.25;
     height: 100vh;
+  }
+  .form-section form {
+    color: black;
   }
 }/*# sourceMappingURL=style.css.map */
